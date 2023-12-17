@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Alarm Clock JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d575fe1d69.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="icons">
+        <img src="imgs/clock.jpg" alt="Image A Clock" />
+      </div>
+      <div class="timer">00:00:00 AM</div>
+      <div class="selects">
+        <select name="select">
+          <option value="hour" selected hidden>hour</option>
+          <!-- <option value="01">01</option>
+               <option value="02">02</option> -->
+        </select>
+        <select>
+          <option value="minute" selected hidden>minute</option>
+          <!-- <option value="00">00</option>
+                <option value="00">01</option> -->
+        </select>
+        <select>
+          <option value="AM/PM" selected hidden>AM/PM</option>
+          <!-- <option value="PM">AM</option>
+               <option value="PM">PM</option> -->
+        </select>
+      </div>
+      <button class="setTime">Set Alarm</button>
+    </div>
+  </body>
+</html>
